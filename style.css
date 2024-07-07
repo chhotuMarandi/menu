@@ -3,14 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Arsenal SC', sans-serif;
-  margin-bottom: 10px;
 }
 
 .heading {
   text-align: center;
   font-size: 2rem;
   font-weight: 600;
-  /* margin-bottom: 10px; */
+  margin-bottom: 10px;
 }
 
 .underline {
@@ -24,7 +23,7 @@
 .navbar-section {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+  margin-top: 16px;
   gap: 1.5em;
 }
 
@@ -36,4 +35,10 @@
   font-weight: 600;
   color: #c59d5f;
   cursor: pointer;
+}
+
+.navbar-section button:hover {
+  background-color: #c59d5f;
+  color: #fff;
+  transition: 0.3s all;
 }
