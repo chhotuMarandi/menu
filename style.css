@@ -45,9 +45,17 @@
 }
 
 .products {
+  margin-top: 3em;
   display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  gap: 1em;
   max-width: 600px;
-  background-color: red;
 }
 
 .images {
@@ -56,10 +64,17 @@
   border-radius: 8px;
   overflow: hidden;
 }
+hr {
+  margin: 1em 0;
+}
 
 .images img {
   width: 100%;
   object-fit: cover;
-
   display: block;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
 }
