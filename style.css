@@ -47,6 +47,8 @@
 .products {
   margin-top: 3em;
   display: flex;
+  flex-direction: row;
+
   flex-wrap: wrap;
   gap: 1.5em;
   justify-content: center;
@@ -77,4 +79,17 @@ hr {
 .title {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 760px) {
+  .card {
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+  }
+
+  .images {
+    margin: 0 auto;
+    max-width: 400px;
+  }
 }
